@@ -24,7 +24,7 @@ while True:
             print(A % B)
             break
     except ValueError:
-            print("Ошибка: введите целое числов4343.")
+            print("Ошибка: введите целое числов.")
         
         
         
