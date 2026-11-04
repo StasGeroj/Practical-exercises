@@ -1,0 +1,18 @@
+'''Даны два целых числа: A, B. Проверить истинность высказывания: «Ровно одно из
+чисел A и B нечетное».'''
+
+while True:
+    try:
+        A = int(input('Введите A: '))
+        B = int(input('Введите B: '))
+
+        break
+
+    except ValueError:
+        print('неверное значение')
+
+
+result = (A % 2) != (B % 2)
+print(result)
+
+    
